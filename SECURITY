@@ -1,0 +1,7 @@
+# Security Policy
+
+Eternity is local-first and stores its SQLite database at `data/eternity.db`.
+
+Do not store secrets you cannot risk losing. The application does not currently encrypt the database, sync to a cloud service, or make network calls. Protect the project directory with your operating system's filesystem permissions and backups.
+
+If you discover a security issue, open a private report with the maintainer or avoid publishing exploit details until a fix is available.
